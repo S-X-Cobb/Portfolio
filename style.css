@@ -1,0 +1,190 @@
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+   
+  #content-wrap {
+    padding-bottom: 10rem;
+  }
+   
+  #footer {
+    position: absolute;
+    bottom: -475px;
+    width: 100%;
+    height: 8rem;
+    background: black;
+  }
+  .social-icons {
+    text-align: center;
+  }
+  .social-icons li {
+    display: inline-block;
+    list-style-type: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+  }
+  .social-icons li a {
+    border-bottom: none;
+  }
+  .social-icons li img {
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+  }
+   
+  .banner {
+    background-image: url(https://static.thousandwonders.net/Amazon.River.original.2312.jpg);
+  }
+   
+  .banner {
+    margin-top: 50px;
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+   
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .menu-bar {
+    background: black;
+    text-align: center;
+  }
+  .menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: blue;
+  }
+  .menu-bar ul li {
+    width: 250px;
+    margin: 10px;
+    padding: 15px;
+  }
+  .menu-bar ul li a {
+    text-decoration: none;
+    color: blue;
+  }
+  .active,
+  .menu-bar ul li:hover {
+    background: orange;
+    border-radius: 3px;
+  }
+   
+  h1 {
+    font-size: 70px;
+    text-align: center;
+    font-style: italic;
+    color: black;
+    margin-top: 8px;
+    margin-bottom: 10px;
+  }
+   
+  body {
+    background-color: white;
+  }
+
+  .portfolio {
+    display: flex;
+    align-items: center;
+  }
+  .portfolio p {
+    margin-top: 35px;
+    float: right;
+    color: coral;
+    margin-right: 75px;
+    font-size: 26px;
+    text-align: center;
+  }
+  .portfolio img {
+    margin-top: 35px;
+    margin-left: 25px;
+    
+  }
+  .other-work {
+    margin-top: 50px;
+        display: flex;
+        align-items: center;
+  }
+   
+  .other-work p {
+    float: left;
+    font-size: 26px;
+    margin-left: 25px;
+    color: coral;
+    margin-bottom: 100px;
+  }
+  .other-work img {
+    float: right;
+    margin-right: 75px;
+    margin-bottom: 100px;
+  }
+  .contact-us {
+    text-align: center;
+  }
+  .contact-us li {
+    display: inline-block;
+    list-style-type: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+  }
+   
+  .contact-us li a {
+    border-bottom: none;
+  }
+  .contact-us li img {
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+  }
+  .sub-menu-1 {
+    display: none;
+  }
+  .menu-bar ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background: white;
+    margin-top: 15px;
+    margin-left: -15px;
+  }
+  .menu-bar ul li:hover .sub-menu-1 ul {
+    display: block;
+    margin: 10px;
+  }
+  .menu-bar ul li:hover .sub-menu-1 ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted orange;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+  }
+  .menu-bar ul li:hover .sub-menu-1 ul li:last-child {
+    border-bottom: none;
+  }
+   
+  .list-2 {
+    margin-left: 150px;
+    list-style: none;
+  }
+  .list-3 {
+    margin-left: 350px;
+    list-style: none;
+  }
+  .list-4 {
+    margin-left: 550px;
+    list-style: none;
+  }
+  .list-5 {
+    margin-left: 750px;
+    list-style: none;
+  }
+  .list-6 {
+    margin-left: 950px;
+    list-style: none;
+  }
+ 
+
